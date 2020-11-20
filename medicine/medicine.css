@@ -1,0 +1,21 @@
+* {margin: 0px;}
+.nav {display: flex;height: 80px;align-items: center;border-bottom: solid 1px; color: black; font-family: montserrat;font-size: 20px; font-weight: 700;}
+.nav-left-items {margin-right: auto;display: flex;}
+.nav-right-items {margin-left: auto;display: flex;}
+.nav-item {margin-left: 10px; margin-right: 10px;}
+.nav a:link, a:visited {color: black;text-decoration: none;}
+.nav a:hover {color: lightgrey;transition: 0.5s;}
+
+.header {
+  text-align: center;
+  padding-top: 40px;
+}
+section.0 {
+  text-align: center;
+}
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+  font-size: 12pt;
+  margin-bottom: 100px;
+}
