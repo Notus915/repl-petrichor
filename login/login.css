@@ -1,0 +1,103 @@
+* {margin: 0px;}
+.nav {display: flex;height: 80px;align-items: center;border-bottom: solid 1px; color: black; font-family: montserrat;font-size: 20px; font-weight: 700;}
+.nav-left-items {margin-right: auto;display: flex;}
+.nav-right-items {margin-left: auto;display: flex;}
+.nav-item {margin-left: 10px; margin-right: 10px;}
+.nav a:link, a:visited {color: black;text-decoration: none;}
+.nav a:hover {color: lightgrey;transition: 0.5s;}
+
+.box { 
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 450px;
+  width: 350px;
+  color: black;
+  padding: 48px 40px 36px;
+  margin: 50px auto;
+}
+.title {
+  font-family: montserrat;
+  font-size: 18pt;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+/* .box-small {
+  overflow: auto;
+} */
+.login {
+  align-items: center;
+  padding-top: 24px;
+  border-left-width: 24px;
+  border-right-width: 24px;
+}
+
+/* form ------------------------- */
+
+.textbox {padding-top:20px;}
+.id {width: 38px;}
+.password {width: 50px;}
+.tag {
+  position: relative;
+  bottom: -10px;
+  left: 8px;
+  padding: 0px 8px;
+  font-size: 10pt;
+  background-color: white;
+}
+.input {
+  color: black;
+  font-size: 16pt;
+  margin: 1px 1px 0px;
+  padding: 13px 15px;
+  width: 314.45px;
+  height: 28px;
+  border-radius: 4px;
+  border: 2px solid black;
+  text-align: left;
+}
+/* 
+input:focus {
+  border: 1px solid blue;  
+  transition: 0.6s
+} */
+
+/* bottom ---------------------- */
+
+.bottom {
+  margin-top: 30px;
+}
+.submit {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.button {
+  text-align: center;
+  border-radius: 4px;
+  height: 46px;
+  width: 350px;
+  padding: 0px 24px;
+  font-size: 13pt;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  transition: 0.4s;
+}
+.button:hover {
+  background-color: white;
+  color: black;
+  transition: 0.4s;
+  transition-delay: none;
+}
+.signup {
+  text-align: left;
+  height: 36px;
+  line-height: 36px;
+  margin-top: 4px;
+  text-decoration: none;
+  font-size: 12pt;
+}
+.signup a {text-decoration: none;}
+.signup a:hover {color: green;transition: 0.2s}
+.signup a:active {color: white;}
